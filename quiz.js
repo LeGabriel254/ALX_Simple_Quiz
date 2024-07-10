@@ -3,7 +3,7 @@ function checkAnswer() {
   var correctAnswer = "4";
   
   // Retrieve the User’s Answer
-  var usersAnswer=document.querySelector('input[name="quiz"]').value;
+  var usersAnswer=document.querySelector('input[name="quiz"]:checked').value;
 
   // Compare the User’s Answer with the Correct Answer
   if (userAnswer === correctAnswer) {
